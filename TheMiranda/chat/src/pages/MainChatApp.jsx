@@ -20,7 +20,7 @@ import { Toast } from 'primereact/toast';
 // import ShareModal from './components/ShareModal';
 
 // Wave Surfer Component
-import WaveformPlayer from '../components/WaveSurfer'; // Agora o import está certo
+import WaveformPlayer from '../components/WaveSurfer';
 
 // React hooks
 import { useEffect, useRef, useState } from 'react';
@@ -34,7 +34,7 @@ const MainChatApp = () => {
     const [messages, setMessages] = useState([]);
 
     // Selected AI model (default: gemini)
-    const [selectedModel, setSelectedModel] = useState('gemini-1.5-flash');
+    const [selectedModel, setSelectedModel] = useState('gemini-1.5-pro');
 
     // State for generated audios
     const [audioUrls, setAudioUrls] = useState({});

@@ -11,7 +11,8 @@
 .app {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(45deg, #27282D, #232428);
+  /* background: linear-gradient(45deg, #27282D, #232428); */
+  /* background: red; */
   height: 100vh;
   /* margin: 0 auto; */
 }
@@ -78,7 +79,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  /* background: red; */
+  /* background: blue; */
 }
 
 /* Users and Bot sender message */
@@ -124,7 +125,8 @@
 .chat_session {
   position: relative;
   padding: 0px 0px;
-  /* background: blue; */
+  width: 100%;
+  /* background: yellow; */
 }
 
 /* Message input for user sender message */
